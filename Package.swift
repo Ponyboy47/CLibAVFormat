@@ -8,7 +8,7 @@ let package = Package(
     pkgConfig: "libavformat-ffmpeg",
     providers: [
         .apt(["libavformat-dev"])
-    ]
+    ],
     dependencies: [
         .package(url: "https://github.com/Ponyboy47/CLibAVUtil.git", from: "0.1.0"),
         .package(url: "https://github.com/Ponyboy47/CLibAVCodec.git", from: "0.1.0"),
